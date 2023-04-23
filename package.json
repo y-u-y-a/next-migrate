@@ -1,0 +1,31 @@
+{
+  "name": "yuya-sample",
+  "version": "0.0.4",
+  "description": "",
+  "license": "MIT",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/y-u-y-a/next-migrate.git"
+  },
+  "author": "yuya",
+  "contributors": [
+    "yuya"
+  ],
+  "keywords": [
+    "hello-world",
+    "example"
+  ],
+  "peerDependencies": {},
+  "devDependencies": {
+    "typescript": "^4.0.0"
+  },
+  "scripts": {
+    "build": "rm -rf dist && tsc src/*.ts --declaration --outDir dist",
+    "prepublishOnly": "npm run build"
+  }
+}
