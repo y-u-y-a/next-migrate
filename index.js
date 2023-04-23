@@ -1,5 +1,3 @@
-module.exports = {
-  sayHello: function () {
-    console.log("Hello from my NPM module!");
-  },
+export const sayHello = () => {
+  console.log("Hello from my NPM module!");
 };
