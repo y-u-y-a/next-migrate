@@ -2,6 +2,7 @@
   "name": "next-migrate",
   "version": "1.0.0",
   "description": "",
+  "type": "module", // "module" for "ECMAScript(import)", "commonjs" for "CommonJS(require)"
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
